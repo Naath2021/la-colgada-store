@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/Miguel-Laco/cosecha40-laco">
-    <img src="/src/assets/image/logo/logo-png" alt="Logo" width="400">
+    <img src="/src/assets/image/logo/logo.png" alt="Logo" width="400">
   </a>
 
   <p align="center">
@@ -43,7 +43,7 @@ E-commerce app, made with Create React App, 100% responsive, with <a href="https
 
 ### Demo
 
-([https://github.com/Miguel-Laco/cosecha40-laco/blob/master/public/img/demo-Cosecha40.gif?raw=true](https://github.com/Naath2021/la-colgada-store/blob/master/src/assets/gif/la-colgada-order-simulator.gif])
+[https://github.com/Miguel-Laco/cosecha40-laco/blob/master/public/img/demo-Cosecha40.gif?raw=true](https://github.com/Naath2021/la-colgada-store/blob/master/src/assets/gif/la-colgada-order-simulator.gif]
 
 <!-- TABLE OF CONTENTS -->
 <details>
