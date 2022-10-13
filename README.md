@@ -20,12 +20,6 @@
 </div>
 
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 ### Project
 
 E-commerce app, made with Create React App, 100% responsive, with <a href="https://fontawesome.com/docs/web/use-with/react/">Font Awesome Icons<a/> and many other libraries.
