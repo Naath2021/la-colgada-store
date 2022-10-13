@@ -2,13 +2,13 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/Miguel-Laco/cosecha40-laco">
-    <img src="public/img/Cosecha401.png" alt="Logo" width="400">
+    <img src="/src/assets/image/logo/logo-png" alt="Logo" width="400">
   </a>
 
   <p align="center">
     cute and minimalistic virtual shop for handcrafted plant pots made of ceramic, with unique features and creative art. 
     <br />
-    <a href="https://github.com/Miguel-Laco/cosecha40-laco"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Naath2021/la-colgada-store"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://la-colgada-store.vercel.app/">View Demo</a>
@@ -28,12 +28,12 @@
 
 ### Project
 
-E-commerce app, made with Create React App, 100% responsive, 
+E-commerce app, made with Create React App, 100% responsive, with <a href="https://fontawesome.com/docs/web/use-with/react/">Font Awesome Icons<a/> and many other libraries. Each order is saved on <a href="https://firebase.google.com/">Firebase</a>
 
 ### Author
 
 > Hi 👋, I'm Nathaly Learmonth:  
-[magulaco@gmail.com](mailto:learmonth.nathaly@gmail.com)
+[learmonth.nathaly@gmail.com](mailto:learmonth.nathaly@gmail.com)
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.linkedin.com/in/nathaly-learmonth-briceno/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="miguel-laco" height="30" width="40" /></a>
@@ -43,7 +43,7 @@ E-commerce app, made with Create React App, 100% responsive,
 
 ### Demo
 
-![Demo de una compra](https://github.com/Miguel-Laco/cosecha40-laco/blob/master/public/img/demo-Cosecha40.gif](https://github.com/Naath2021/la-colgada-store/blob/master/src/assets/gif/la-colgada-order-simulator.gif?raw=true)
+([https://github.com/Miguel-Laco/cosecha40-laco/blob/master/public/img/demo-Cosecha40.gif?raw=true](https://github.com/Naath2021/la-colgada-store/blob/master/src/assets/gif/la-colgada-order-simulator.gif])
 
 <!-- TABLE OF CONTENTS -->
 <details>
