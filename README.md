@@ -1,70 +1,168 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+<!-- PROJECT LOGO -->
+<div align="center">
+  <a href="https://github.com/Miguel-Laco/cosecha40-laco">
+    <img src="public/img/Cosecha401.png" alt="Logo" width="400">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">
+    cute and minimalistic virtual shop for handcrafted plant pots made of ceramic, with unique features and creative art. 
+    <br />
+    <a href="https://github.com/Miguel-Laco/cosecha40-laco"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://la-colgada-store.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/Naath2021/la-colgada-store/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Naath2021/la-colgada-store/issues">Request Feature</a>
+  </p>
+</div>
 
-## Available Scripts
 
-In the project directory, you can run:
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-### `npm start`
+### Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+E-commerce app, made with Create React App, 100% responsive, 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Author
 
-### `npm test`
+> Hi 👋, I'm Nathaly Learmonth:  
+[magulaco@gmail.com](mailto:learmonth.nathaly@gmail.com)
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://www.linkedin.com/in/nathaly-learmonth-briceno/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="miguel-laco" height="30" width="40" /></a>
+<a href="https://www.instagram.com/nathlearmonth/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="migue.laco" height="30" width="40" /></a>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Demo de una compra](https://github.com/Miguel-Laco/cosecha40-laco/blob/master/public/img/demo-Cosecha40.gif](https://github.com/Naath2021/la-colgada-store/blob/master/src/assets/gif/la-colgada-order-simulator.gif?raw=true)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* [![React][React.js]][React-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
+* [![Fire][Fire.com]][Fire-url]
+* [![Moment][Moment.com]][Moment-url]
+* ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+* ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+* ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+* ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+* ![Semantic UI React](https://img.shields.io/badge/Semantic%20UI%20React-%2335BDB2.svg?style=for-the-badge&logo=SemanticUIReact&logoColor=white)
+* ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+* ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- GETTING STARTED -->
+## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Naath2021/la-colgada-store.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Run the APP
+   ```js
+   npm start;
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- CONTACT -->
+## Contact
 
-### Analyzing the Bundle Size
+Nathaly Christine Learmonth Briceño - 
+<p align="left">
+<a href="https://www.linkedin.com/in/nathaly-learmonth-briceno/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="miguel-laco" height="30" width="40" /></a>
+<a href="https://www.instagram.com/nathlearmonth/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="migue.laco" height="30" width="40" /></a>
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* ### Professor [ Juan Magos ](https://github.com/JuanMagos)
+* ### Tutor [ Danae Meneses ](https://github.com/danaemeneses)
 
-### Advanced Configuration
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/Miguel-Laco/cosecha40-laco.svg?style=for-the-badge
+[contributors-url]: https://github.com/Miguel-Laco/cosecha40-laco/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Miguel-Laco/cosecha40-laco.svg?style=for-the-badge
+[forks-url]: https://github.com/Miguel-Laco/cosecha40-laco/network/members
+[stars-shield]: https://img.shields.io/github/stars/Miguel-Laco/cosecha40-laco.svg?style=for-the-badge
+[stars-url]: https://github.com/Miguel-Laco/cosecha40-laco/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Miguel-Laco/cosecha40-laco.svg?style=for-the-badge
+[issues-url]: https://github.com/Miguel-Laco/cosecha40-laco/issues
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/miguel-laco
+[product-screenshot]: images/screenshot.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
+[Hot.com]: https://img.shields.io/badge/Hot-Toast-red?style=for-the-badge&logo=Hetzner&logoColor=white
+[Hot-url]: https://react-hot-toast.com/
+[Fire.com]: https://img.shields.io/badge/Fire_Base-FFCA28?style=for-the-badge&logo=firebase&logoColor=white
+[Fire-url]: https://firebase.google.com/
+[Moment.com]: https://img.shields.io/badge/Moment-blue?style=for-the-badge&logo=Cachet&logoColor=white
+[Moment-url]: https://momentjs.com/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
