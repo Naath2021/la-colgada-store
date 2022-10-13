@@ -43,7 +43,9 @@ E-commerce app, made with Create React App, 100% responsive, with <a href="https
 
 ### Demo
 
-[https://github.com/Miguel-Laco/cosecha40-laco/blob/master/public/img/demo-Cosecha40.gif?raw=true](https://github.com/Naath2021/la-colgada-store/blob/master/src/assets/gif/la-colgada-order-simulator.gif]
+
+![la-colgada-order-simulator](https://user-images.githubusercontent.com/95722791/195662485-25261b89-c1b7-412d-b428-c0e83343c66b.gif)
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
