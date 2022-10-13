@@ -1,6 +1,5 @@
 .cart-offcanvas {
-  position: absolute;
-  min-height: 100vh;
+  height: fit-content;
   width: 90%;
   .empty-cart-notif {
     @include flex-column;

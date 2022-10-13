@@ -5,24 +5,27 @@
     background-color: none;
     height: fit-content;
     @include flex-row;
+    width: 15vw;
     justify-content: space-between;
     .cart-img-container {
       .item-img {
-        width: 8vw;
+        width: 5vw;
       }
     }
     .cart-item-info-container {
       @include flex-column;
       align-items: flex-end;
       justify-content: space-between;
-      padding: 1vw;
+      padding: .5vw;
       width: 10vw;
       .cart-item-name {
-        font-size: 0.9vw;
+        font-size: 0.7vw;
         padding: 1.5vh 0;
+        width: 8vw;
       }
       .cart-item-price {
-        font-size: 0.8vw;
+        font-size: 0.5vw;
+        font-weight: 600;
       }
     }
   }

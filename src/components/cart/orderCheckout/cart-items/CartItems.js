@@ -17,7 +17,7 @@ const CartItems = () => {
                                 <img src={baseUrl + item.product.image1} alt={item.product.name} className="item-img checkout-item-img b-radius-5" />
                             </div>
                             <div className='cart-item-info-container checkout-cart-item-info-container'>
-                                <button onClick={() => deleteProduct(item)} className="delete-product-btn checkout-delete-product-btn b-radius-5"><Popup content='Eliminar producto' trigger={<FontAwesomeIcon icon={faXmark} />} /></button>
+                                <button onClick={() => deleteProduct(item)} className="delete-product-btn checkout-delete-product-btn b-radius-5"><FontAwesomeIcon icon={faXmark} /> </button>
                                 <h2 className='texts cart-item-name checkout-cart-item-name'>{item.product.name}</h2>
                                 <h6 className="texts cart-item-price checkout-cart-item-price">{item.qty} x ${item.productTotalPrice}</h6>
                             </div>

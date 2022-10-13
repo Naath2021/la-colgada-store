@@ -21,7 +21,7 @@ function Cart() {
 
   return (
     <>
-      <Button onClick={handleShow} className="cart-icon" variant="link">
+      <Button onClick={handleShow} className="cart-icon link-router" variant="link">
         <CartWidget />
       </Button>
 

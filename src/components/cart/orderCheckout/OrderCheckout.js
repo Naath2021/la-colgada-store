@@ -8,7 +8,6 @@ const OrderCheckout = ({ handleInputChange, createOrder, handleSubmit }) => {
 
 
     const { cart, getTotalCartPrice } = useContext(CartContext);
-    console.log(cart)
 
     return (
         <>

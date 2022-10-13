@@ -10,15 +10,15 @@
       box-shadow: 5px 4px 12px -6px $fonts;
       transform: scale(1.1);
     }
+    .card-img-top {
+      height: 40vh;
+    }
     .card-body {
       width: 100%;
       @include flex-column;
       .card-title {
         font-size: 1vw;
         font-weight: 600;
-      }
-      .card-img-top {
-        height: fit-content;
       }
       .card-price {
         padding-top: 10px;
