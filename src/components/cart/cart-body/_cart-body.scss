@@ -1,0 +1,24 @@
+.cart-offcanvas {
+  position: absolute;
+  min-height: 100vh;
+  width: 90%;
+  .empty-cart-notif {
+    @include flex-column;
+    .empty-cart {
+      margin-top: 10vh;
+      vertical-align: middle;
+      width: 15vw;
+      text-align: center;
+      font-size: 1vw;
+    }
+    .cart-to-products {
+      margin-top: 5vh;
+      font-size: 0.8vw;
+      padding: 10px 15px;
+      &:hover {
+        color: $fonts;
+        background-color: $bg-color;
+      }
+    }
+  }
+}

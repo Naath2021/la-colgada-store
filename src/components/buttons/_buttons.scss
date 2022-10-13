@@ -1,0 +1,46 @@
+.btn-add-items-to-cart-container {
+  @include flex-row;
+  background-color: $bg-color;
+  width: fit-content;
+  .btn-add-substract {
+    font-size: 10px;
+    outline: 0;
+    border: none;
+    color: $fonts;
+    background-color: $bg-color;
+    padding: 10px;
+  }
+  .itemQty {
+    text-align: center;
+    font-size: 1vw;
+  }
+}
+
+#dropdown-basic {
+  @include flex-row;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: $fonts;
+  &:hover {
+    font-size: 0.9vw;
+  }
+  .dropdown-menu.show{
+    width: 15vw;
+  }
+}
+
+.delete-product-btn {
+  border: none;
+}
+
+.ui{
+  font-size: 3vw;
+}
+
+.add-to-cart{
+  width: 10vw;
+  .hidden{
+    font-size: .5vw;
+  }
+}

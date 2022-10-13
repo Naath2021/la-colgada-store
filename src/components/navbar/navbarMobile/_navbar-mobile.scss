@@ -1,0 +1,16 @@
+.mobile-icons-container {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .mobile-icons-container {
+    display: block;
+    width: fit-content;
+    @include flex-column;
+    position: fixed;
+    top: 3vh;
+    .mobile-icons {
+      font-size: 4vw;
+      color: $fonts;
+    }
+  }
+}

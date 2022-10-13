@@ -1,0 +1,28 @@
+.titles-web {
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 5px;
+}
+
+.texts {
+  font-family: "Architects Daughter", cursive;
+}
+
+.b-radius {
+  border-radius: 10px;
+}
+
+.b-radius-5 {
+  border-radius: 5px;
+}
+.link-router {
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  color: $fonts;
+  &:hover {
+    color: $fonts !important;
+  }
+}
+
+

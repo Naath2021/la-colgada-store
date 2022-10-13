@@ -1,0 +1,47 @@
+.card-container {
+  margin-top: 10vh;
+  .card {
+    background-color: $bg-color;
+    @include flex-column;
+    width: 15vw;
+    margin: 30px;
+    &:hover {
+      color: $fonts !important;
+      box-shadow: 5px 4px 12px -6px $fonts;
+      transform: scale(1.1);
+    }
+    .card-body {
+      width: 100%;
+      @include flex-column;
+      .card-title {
+        font-size: 1vw;
+        font-weight: 600;
+      }
+      .card-img-top {
+        height: fit-content;
+      }
+      .card-price {
+        padding-top: 10px;
+        font-size: 0.8vw;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    flex-wrap: nowrap;
+    .card {
+      width: 30vw;
+    }
+    .card-body {
+      .card-title {
+        font-size: 3vw !important;
+        text-align: center;
+      }
+      .card-subtitle {
+        font-size: 2vw !important;
+      }
+    }
+  }
+}

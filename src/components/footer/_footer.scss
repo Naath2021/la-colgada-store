@@ -1,0 +1,44 @@
+.footer-container {
+  position:static;
+  bottom: 0;
+  @include flex-column;
+  justify-content: space-evenly;
+  height: 40vh;
+  width: 100%;
+  background-color: $light-pink;
+  .footer-nav-container {
+    @include flex-row;
+    justify-content: space-evenly;
+    width: 100%;
+    .conect,
+    .explore {
+      @include flex-column;
+      a {
+        color: $fonts;
+        @include text-deco-none;
+      }
+    }
+
+    // .subscribe {
+    //   @include flex-column;
+    //   .footer-input {
+    //     background-color: $bg-color;
+    //     height: 30px;
+    //     margin-bottom: 15px;
+    //     border-radius: 5px;
+    //   }
+    // }
+  }
+
+  .contact {
+    h3 {
+      font-size: 15px;
+    }
+  }
+
+  .disclaimer {
+    h4 {
+      font-size: 15px;
+    }
+  }
+}

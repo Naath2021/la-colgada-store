@@ -1,0 +1,191 @@
+.sections-container {
+  .welcoming {
+    @include flex-column;
+    background-image: url("../../../assets/image/backgrounds/home.png");
+    @include bg-cover;
+    @include bg-image;
+    .welcoming-title {
+      font-size: 3vw;
+      width: 30vw;
+      margin-right: 15vw;
+    }
+  }
+
+  .description {
+    @include flex-row;
+    height: 70vh;
+    background-image: url("../../../assets/image/backgrounds/pattern.png");
+    @include bg-fixed;
+    .text-container {
+      width: 40vw;
+      background-color: $bg-color-opacity;
+      padding: 3vw;
+      h2 {
+        font-size: 1vw;
+        color: $fonts;
+        text-align: center;
+      }
+    }
+  }
+
+  .brand-details {
+    @include flex-row;
+    .detail-container {
+      @include flex-column;
+      padding: 10vw 3vw 0 3vw;
+      .detail-title {
+        font-weight: 600;
+        font-size: 1vw;
+        padding-top: 1vw;
+      }
+      .detail-desc {
+        font-size: 0.7vw;
+        width: 15vw;
+        text-align: center;
+        padding-top: 20px;
+      }
+      .icon {
+        font-size: 3vw;
+      }
+    }
+  }
+
+  .categories-container {
+    height: fit-content;
+    @include flex-column;
+    .category-title {
+      font-size: 3vw;
+      margin-top: 20vh;
+      align-self: flex-start;
+    }
+    .card-container {
+      @include flex-row;
+      margin-bottom: 40vh;
+      .categories {
+        padding: 0 30px;
+        .category-img {
+          width: 20vw;
+          &:hover {
+            box-shadow: 5px 4px 12px -6px $fonts;
+            transform: 600ms;
+          }
+        }
+        .category-name {
+          font-size: 0.9vw;
+          margin: 2vh 0;
+          &:hover {
+            font-size: 1vw;
+          }
+        }
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  .about {
+    @include flex-column;
+    height: 150vh;
+    background-image: url("../../../assets/image/backgrounds/patt-brand-name.png");
+    @include bg-fixed;
+    .text-container {
+      @include flex-column;
+      width: 60vw;
+      height: 40vh;
+      background-color: $bg-color-opacity;
+      .about-title {
+        font-size: 3vw;
+        padding-bottom: 1vw;
+      }
+      .about-desc {
+        font-size: 1vw;
+        width: 40vw;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sections-container {
+    width: 100vw;
+    .welcoming {
+      height: 100vh;
+      background-size: contain;
+      .welcoming-title {
+        font-size: 8vw;
+        width: 50vw;
+        margin-right: 0;
+      }
+    }
+    .description {
+      height: 100vh;
+      .text-container {
+        width: 80vw;
+        padding: 3vh 3vw;
+        h2 {
+          font-size: 2.5vw;
+        }
+      }
+    }
+    .brand-details {
+      @include flex-column;
+      .detail-container {
+        margin-top: 10vh;
+        padding: 0 5vw;
+        .icon {
+          font-size: 10vw;
+        }
+        .detail-title {
+          margin-top: 3vh;
+          font-size: 3vw;
+          width: 50vw;
+          text-align: center;
+        }
+        .detail-desc {
+          font-size: 3vw;
+          width: 70vw;
+          text-align: center;
+        }
+      }
+    }
+    .categories-container {
+      @include flex-column;
+      margin-top: 20vh;
+      .category-title {
+        font-size: 8vw;
+        margin: 0%;
+      }
+      .card-container {
+        .categories {
+          @include flex-column;
+          margin: 0;
+          padding: 40px;
+          .category-img {
+            width: 40vw;
+          }
+          .category-name {
+            font-size: 3vw;
+          }
+        }
+      }
+    }
+    .about {
+      .text-container {
+        @include flex-column;
+        width: 90vw;
+        height: fit-content;
+        .about-title {
+          font-size: 6vw;
+          padding: 20px 0;
+        }
+        .about-desc {
+          font-size: 2vw;
+          width: 90%;
+          padding-bottom: 30px;
+        }
+      }
+    }
+  }
+}

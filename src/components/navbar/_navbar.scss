@@ -1,0 +1,54 @@
+.navbar-container {
+  @include flex-row;
+  background-color: $yellow;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  justify-content: space-around;
+  height: 50px;
+  .navbar-logo {
+    width: 10vw;
+    &:hover {
+      width: 11vw;
+    }
+  }
+  .navbar-list-container {
+    @include flex-row;
+    ul {
+      margin: 0;
+      li {
+        @include flex-row;
+        a {
+          @include text-deco-none;
+          letter-spacing: 5px;
+          font-family: "Architects Daughter", cursive;
+          font-size: 0.8vw;
+          color: $fonts;
+          padding: 0 15px;
+          &:hover {
+            font-size: 0.9vw;
+          }
+        }
+      }
+    }
+  }
+  .icon-container {
+    display: flex;
+    a {
+      @include flex-row;
+      padding-left: 15px;
+      font-size: 1vw;
+      color: $fonts;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    display: none;
+  }
+  .navbar-mobile-container{
+    display: block;
+  }
+}

@@ -1,0 +1,29 @@
+.cart-body-container {
+  background-color: none;
+  @include flex-column;
+  .item-container {
+    background-color: none;
+    height: fit-content;
+    @include flex-row;
+    justify-content: space-between;
+    .cart-img-container {
+      .item-img {
+        width: 8vw;
+      }
+    }
+    .cart-item-info-container {
+      @include flex-column;
+      align-items: flex-end;
+      justify-content: space-between;
+      padding: 1vw;
+      width: 10vw;
+      .cart-item-name {
+        font-size: 0.9vw;
+        padding: 1.5vh 0;
+      }
+      .cart-item-price {
+        font-size: 0.8vw;
+      }
+    }
+  }
+}
