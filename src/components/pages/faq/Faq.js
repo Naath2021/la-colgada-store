@@ -65,7 +65,7 @@ function BasicExample() {
           <div className="faq-contact-info">
             <h2 className="contact-info texts" data-aos="fade-left" data-aos-duration="1000">¡si tienes más preguntas contáctanos! c:</h2>
             <div className="contacts-links">
-              <a href='https://www.instagram.com/la.colgada/' target="_blank" className="faq-links texts link-router" data-aos="fade-up-right" data-aos-duration="1500" data-aos-delay="2000">@instagram</a>
+              <a href='https://www.instagram.com/la.colgada/' className="faq-links texts link-router" data-aos="fade-up-right" data-aos-duration="1500" data-aos-delay="2000">@instagram</a>
               <h6 className="faq-links texts" data-aos="fade-up-left" data-aos-duration="1500" data-aos-delay="2500">hola.colgada@gmail.com</h6>
             </div>
           </div>

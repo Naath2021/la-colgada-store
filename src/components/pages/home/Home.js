@@ -2,7 +2,7 @@ import { faGlobe, faHandSparkles, faTruck } from "@fortawesome/free-solid-svg-ic
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { firebaseDb } from "../../../firebase/FirebaseInitializer"
-import { useState, useEffect, Context, useContext } from "react"
+import { useState, useEffect, useContext } from "react"
 import { CartContext } from "../../../context/CartContext"
 import { collection, getDocs } from "firebase/firestore"
 import LoaderImg from "../../loader/Loader"
@@ -68,7 +68,7 @@ const Home = () => {
                     <div className="card-container">
                         <Link to={"products/category/macetas"} className="link-router">
                             {
-                                catImage.length == 0
+                                catImage.length === 0
                                     ? <div className="category-img b-radius"><LoaderImg className="loader" /> </div>
                                     : <>
                                         <div className="categories b-radius">
@@ -80,7 +80,7 @@ const Home = () => {
                         </Link>
                         <Link to={"products/category/utensilios"} className="link-router">
                             {
-                                catImage.length == 0
+                                catImage.length === 0
                                     ? <div className="category-img b-radius"><LoaderImg className="loader" /> </div>
                                     : <>
                                         <div className="categories b-radius">
@@ -92,7 +92,7 @@ const Home = () => {
                         </Link>
                         <Link to={"products/category/combos"} className="link-router">
                             {
-                                catImage.length == 0
+                                catImage.length === 0
                                     ? <div className="category-img b-radius"><LoaderImg className="loader" /> </div>
                                     : <>
                                         <div className="categories b-radius">
