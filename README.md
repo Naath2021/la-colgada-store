@@ -28,7 +28,7 @@
 
 ### Project
 
-E-commerce app, made with Create React App, 100% responsive, with <a href="https://fontawesome.com/docs/web/use-with/react/">Font Awesome Icons<a/> and many other libraries. Each order is saved on <a href="https://firebase.google.com/">Firebase</a>
+E-commerce app, made with Create React App, 100% responsive, with <a href="https://fontawesome.com/docs/web/use-with/react/">Font Awesome Icons<a/> and many other libraries.
 
 ### Author
 
@@ -44,7 +44,7 @@ E-commerce app, made with Create React App, 100% responsive, with <a href="https
 ### Demo
 
 
-![la-colgada-order-simulator](https://user-images.githubusercontent.com/95722791/195662485-25261b89-c1b7-412d-b428-c0e83343c66b.gif)
+![la colgada store](https://user-images.githubusercontent.com/95722791/195703614-7c5f3467-4e69-4b11-b737-6b0412569d4f.gif)
 
 
 <!-- TABLE OF CONTENTS -->
