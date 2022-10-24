@@ -33,7 +33,7 @@
       width: 40vw;
     }
     .item-design-disclaimer {
-      font-size: .8vw;
+      font-size: 0.8vw;
       font-weight: 600;
       padding-top: 20px;
       letter-spacing: 3px;
@@ -43,7 +43,7 @@
       padding-top: 30px;
       font-size: 1vw;
     }
-    .btn-container{
+    .btn-container {
       @include flex-row;
       width: 25vw;
       justify-content: space-between;
@@ -51,12 +51,32 @@
     .btn-to-products {
       width: fit-content;
       font-weight: 600;
-      font-size: .6vw;
+      font-size: 0.6vw;
       margin-top: 1vh;
       padding: 10px 15px;
-      &:hover{
+      &:hover {
         background-color: $light-pink;
         color: $fonts !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .item-container {
+    @include flex-column;
+    .item-img {
+      width: 50vw;
+      margin-bottom: 10vh;
+      .carr-img {
+        width: 50vw;
+      }
+    }
+    .item-info{
+      margin: 0%;
+      padding: 0%;
+      .item-title{
+        font-size: 10vw;
       }
     }
   }

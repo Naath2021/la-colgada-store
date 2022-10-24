@@ -35,7 +35,7 @@ const Home = () => {
         <>
             <div className="sections-container" >
                 <div className="welcoming ">
-                    <h1 className="titles-web welcoming-title" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="2000">manufactura estimulante de objetos únicos...</h1>
+                    {/* <h1 className="titles-web welcoming-title" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="2000">manufactura estimulante de objetos únicos...</h1> */}
                 </div>
                 <div className="description" >
                     <div className="text-container b-radius" data-aos="fade-up" data-aos-duration="600">
@@ -47,19 +47,19 @@ const Home = () => {
                     <div className="detail-container" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="50">
                         <FontAwesomeIcon icon={faGlobe} className="icon" />
                         <h2 className="texts detail-title">envíos a todo el país</h2>
-                        <h3 className="texts detail-desc">compra desde cualquier parte de Argentina y del mundo</h3>
+                        <h3 className="texts detail-desc">compra desde cualquier parte de Argentina. Consulta para envíos internacionales</h3>
                     </div>
 
                     <div className="detail-container" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="250">
                         <FontAwesomeIcon icon={faHandSparkles} className="icon" />
                         <h2 className="texts detail-title">piezas únicas</h2>
-                        <h3 className="texts detail-desc">todos los productos tienen originalidad y personalidad</h3>
+                        <h3 className="texts detail-desc">nuestras piezas son moldeadas y pintadas a mano, nada de industrias, ¡sólo creatividad!</h3>
                     </div>
 
                     <div className="detail-container" data-aos="zoom-in" data-aos-duration="1400" data-aos-delay="400">
                         <FontAwesomeIcon icon={faTruck} className="icon" />
                         <h2 className="texts detail-title">devoluciones seguras</h2>
-                        <h3 className="texts detail-desc">tu compra protegida por nuestra política de devoluciones de 30 días.</h3>
+                        <h3 className="texts detail-desc">15 días para cambiar tu producto de manera gratuita</h3>
                     </div>
                 </div>
 
@@ -73,7 +73,7 @@ const Home = () => {
                                     : <>
                                         <div className="categories b-radius">
                                             <img src={baseUrl + catImage[5].image1} alt="categoria-macetas" className="category-img b-radius" />
-                                            <h3 className="category-name">macetas</h3>
+                                            <h3 className="subtitles category-name">macetas</h3>
                                         </div>
                                     </>
                             }
@@ -85,7 +85,7 @@ const Home = () => {
                                     : <>
                                         <div className="categories b-radius">
                                             <img src={baseUrl + catImage[9].image1} alt="categoria-macetas" className="category-img b-radius" />
-                                            <h3 className="category-name">utensilios</h3>
+                                            <h3 className="subtitles category-name">utensilios</h3>
                                         </div>
                                     </>
                             }
@@ -97,7 +97,7 @@ const Home = () => {
                                     : <>
                                         <div className="categories b-radius">
                                             <img src={baseUrl + catImage[3].image1} alt="categoria-macetas" className="category-img b-radius" />
-                                            <h3 className="category-name">combos</h3>
+                                            <h3 className="subtitles category-name">combos</h3>
                                         </div>
                                     </>
                             }
@@ -108,8 +108,8 @@ const Home = () => {
 
                 <div className="about">
                     <div className="text-container b-radius" data-aos="zoom-in-down" data-aos-duration="1000">
-                        <h2 className="titles-web about-title">acerca de</h2>
-                        <h3 className="texts about-desc">Sensibilidad artística comprometida con explorar la noble manufactura y su trascender en objetos cotidianos. Son piezas únicas hechas a mano, con estilos especiales y blah blah blah. Hagamos un párrafo más largo para describir la marca.</h3>
+                        {/* <h2 className="titles-web about-title">acerca de</h2> */}
+                        <h3 className="texts about-desc">somos una marca de cerámicas, la construcción de cada producto es realizada artesanalmente. ¡no hay dos iguales!</h3>
                     </div>
                 </div>
             </div>
