@@ -19,6 +19,6 @@ function DropdownCategory() {
     );
 }
 
-const btnOrderCheckout = <Link to={"../checkout"}><Button type="button">iniciar compra</Button></Link>
+const btnOrderCheckout = <Link to={"../checkout"}><Button type="button" className='start-purchase'>iniciar compra</Button></Link>
 
 export { DropdownCategory, btnOrderCheckout }

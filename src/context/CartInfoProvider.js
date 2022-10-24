@@ -10,7 +10,6 @@ const CartInfoProvider = ({ children }) => {
         } else {
             setCart([...cart, { product, qty, productTotalPrice }])
             // console.log("cart: ", [...cart, { product, qty, productTotalPrice }])
-            // console.log(cart.length)
         }
     }
 

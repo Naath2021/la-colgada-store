@@ -123,7 +123,7 @@
       height: 100vh;
       .text-container {
         width: 80vw;
-        padding: 3vh 3vw;
+        padding: 3vh 5vw;
         h2 {
           font-size: 2.5vw;
         }
@@ -155,7 +155,7 @@
       margin-top: 20vh;
       .category-title {
         font-size: 8vw;
-        margin: 0%;
+        padding-left: 10vw;
       }
       .card-container {
         .categories {
@@ -175,13 +175,13 @@
       .text-container {
         @include flex-column;
         width: 90vw;
-        height: fit-content;
+        height: 40vh;
         .about-title {
-          font-size: 6vw;
+          font-size: 12vw;
           padding: 20px 0;
         }
         .about-desc {
-          font-size: 2vw;
+          font-size: 3vw;
           width: 90%;
           padding-bottom: 30px;
         }

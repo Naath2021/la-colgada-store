@@ -1,5 +1,5 @@
 .footer-container {
-  position:static;
+  position: static;
   bottom: 0;
   @include flex-column;
   justify-content: space-evenly;
@@ -18,16 +18,6 @@
         @include text-deco-none;
       }
     }
-
-    // .subscribe {
-    //   @include flex-column;
-    //   .footer-input {
-    //     background-color: $bg-color;
-    //     height: 30px;
-    //     margin-bottom: 15px;
-    //     border-radius: 5px;
-    //   }
-    // }
   }
 
   .contact {
@@ -39,6 +29,36 @@
   .disclaimer {
     h4 {
       font-size: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    height: fit-content;
+    .footer-nav-container {
+      @include flex-row;
+      .conect,
+      .explore,
+      .contact {
+        padding: 5vh 0;
+        width: 30vw;
+        .section-title {
+          font-size: 5vw;
+          font-weight: 400;
+        }
+        .footer-section-link {
+          font-size: 3vw;
+          text-align: center;
+        }
+      }
+    }
+    .disclaimer {
+      margin-bottom: 5vh;
+      .disclaimer-text {
+        font-size: 3vw;
+        text-align: center;
+      }
     }
   }
 }
