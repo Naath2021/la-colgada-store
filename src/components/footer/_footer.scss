@@ -41,22 +41,24 @@
       .conect,
       .explore,
       .contact {
+        align-content: center;
         padding: 5vh 0;
         width: 30vw;
         .section-title {
-          font-size: 5vw;
+          font-size: 4vw;
           font-weight: 400;
+          text-align: center;
         }
         .footer-section-link {
-          font-size: 3vw;
+          font-size: 2vw;
           text-align: center;
         }
       }
     }
     .disclaimer {
-      margin-bottom: 5vh;
+      margin: 5vh 0;
       .disclaimer-text {
-        font-size: 3vw;
+        font-size: 2vw;
         text-align: center;
       }
     }

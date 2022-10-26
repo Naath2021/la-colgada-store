@@ -21,11 +21,11 @@
         @include flex-row;
         a {
           @include text-deco-none;
-          letter-spacing: 5px;
-          font-family: "Architects Daughter", cursive;
+          letter-spacing: 5px;  
           font-size: 0.8vw;
           color: $fonts;
           padding: 0 15px;
+          font-weight: 600;
           &:hover {
             font-size: 0.9vw;
           }

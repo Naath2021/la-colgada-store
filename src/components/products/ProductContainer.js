@@ -19,7 +19,6 @@ const ProductContainer = () => {
     useEffect(() => {
         getProductsInfo()
     }, [])
-
     return (
         <div>
             <ProductList list={productsInfo} />

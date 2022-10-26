@@ -4,17 +4,14 @@ function BasicExample() {
   return (
     <>
       <div className="faq-container">
-        <div className='faq-start'>
-        </div>
-        <h1 className='faq-title titles-web' data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">preguntas frecuentes</h1>
-
+        <div className='faq-start'></div>
         <div className="acc-info-container">
           <div className='acc-container' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="0" className='acc-item'>
                 <Accordion.Header className='texts'>¿cómo hago una compra?</Accordion.Header>
                 <Accordion.Body>
-                  accede a la sección de productos y haz click en el que desees, luego selecciona la cantidad de items y presiona el botón agregar al carrito. una vez que los agregues, presionas el botón "iniciar compra" y llena tus datos de facturación, para finalizar presiona "finalizar compra", y listo. 
+                  accede a la sección de productos y haz click en el que desees, luego selecciona la cantidad de items y presiona el botón agregar al carrito. una vez que los agregues, presionas el botón "iniciar compra" y llena tus datos de facturación, para finalizar presiona "finalizar compra", y listo.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1" className='acc-item'>
@@ -59,8 +56,8 @@ function BasicExample() {
           <div className="faq-contact-info">
             <h2 className="contact-info texts" data-aos="fade-left" data-aos-duration="1000">si tienes más preguntas contáctanos! c:</h2>
             <div className="contacts-links">
-              <a href='https://www.instagram.com/la.colgada/' className="faq-links texts link-router" data-aos="fade-up-right" data-aos-duration="1500" data-aos-delay="2000">@instagram</a>
-              <h6 className="faq-links texts" data-aos="fade-up-left" data-aos-duration="1500" data-aos-delay="2500">hola.colgada@gmail.com</h6>
+              <a href='https://www.instagram.com/la.colgada/' className="faq-links texts link-router" data-aos="fade-up-right" data-aos-duration="1500" data-aos-delay="2000">@la.colgada</a>
+              <a href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSPFrMrPXKGfCBhFLFsxMhLgtbZXhfGLnwjjhLFtZPJRMwpxBsXpmBbrkVBJZjqjTkxKHtdC' className="faq-links texts link-router" data-aos="fade-up-right" data-aos-duration="1500" data-aos-delay="2000" target="_blank">hola.colgada@gmail.com</a>
             </div>
           </div>
         </div>
