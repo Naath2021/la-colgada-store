@@ -1,7 +1,6 @@
 
 import { useContext } from "react"
 import { CartContext } from '../../../../context/CartContext';
-import { Popup } from 'semantic-ui-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
@@ -11,6 +10,7 @@ const CartItems = () => {
         <>
             {
                 cart.map((item) => {
+                    // Also used on OrderCheckout.js and _orderCheckout.scss
                     return <div key={item.product.id} className="cart-body-container checkout-cart-body-container">
                         <div className='item-container checkout-item-container'>
                             <div className="cart-img-container checkout-cart-img-container">

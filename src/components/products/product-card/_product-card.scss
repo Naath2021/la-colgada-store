@@ -11,13 +11,13 @@
       transform: scale(1.1);
     }
     .card-img-top {
-      height: 40vh;
+      width: 15vw;
     }
     .card-body {
       width: 100%;
       @include flex-column;
       .card-title {
-        font-size: 1vw;
+        font-size: 1.3vw;
         font-weight: 600;
       }
       .card-price {
@@ -42,7 +42,7 @@
       }
       .card-body {
         .card-title {
-          font-size: 2vw;
+          font-size: 3vw;
           text-align: center;
         }
         .card-subtitle {

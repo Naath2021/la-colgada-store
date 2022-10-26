@@ -7,12 +7,6 @@
     @include bg-fixed;
   }
 
-  .faq-title {
-    @include flex-column;
-    font-size: 3vw;
-    margin-top: 10vh;
-  }
-
   .acc-info-container {
     @include flex-row;
     .acc-container {
@@ -21,12 +15,13 @@
       .acc-item {
         width: 40vw;
         .accordion-button {
-          font-size: 2vw;
+          font-size: 1.3vw;
           background-color: $light-pink;
           color: $fonts;
           border-color: $fonts;
         }
         .accordion-body {
+          font-size: 1vw;
           background-color: $bg-color;
         }
       }
@@ -49,9 +44,45 @@
           transition: all 600ms;
           &:hover {
             transition: all 600ms;
-            color: $salmon;
-            font-size: 0.9vw;
+            font-size: 0.8vw;
+            color: $light-pink;
           }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .faq-container {
+    @include flex-column;
+    .faq-start {
+      background-size: contain;
+      background-position: top;
+      height: 50vh;
+      width: 100vw;
+    }
+    .acc-info-container {
+      height: 100vh;
+      margin: 0%;
+      padding: 0;
+      .acc-container {
+        .acc-item {
+          width: 80vw;
+          .accordion-button {
+            font-size: 2.5vw;
+          }
+          .accordion-body {
+            font-size: 2vw;
+          }
+        }
+      }
+      .faq-contact-info {
+        .contact-info {
+          padding: 0 0 3vh 0;
+          margin: 0%;
+          font-size: 3vw;
+          width: fit-content;
         }
       }
     }

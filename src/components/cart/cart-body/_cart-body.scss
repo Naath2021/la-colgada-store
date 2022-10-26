@@ -12,11 +12,12 @@
     }
     .cart-to-products {
       margin-top: 5vh;
-      font-size: 0.8vw;
-      padding: 10px 15px;
+      font-size: 0.6vw;
+      padding: 10px 20px;
+      font-weight: 600;
       &:hover {
         color: $fonts;
-        background-color: $bg-color;
+        background-color: $light-pink;
       }
     }
   }

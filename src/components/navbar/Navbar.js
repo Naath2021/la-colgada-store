@@ -14,7 +14,7 @@ const Navbar = () => {
                     <ul>
                         <li>
                             <Link to={"products"}><DropdownCategory /></Link>
-                            <Link to={"preguntas-frecuentes"} className="texts">faq</Link>
+                            <Link to={"preguntas-frecuentes"}>faq</Link>
                         </li>
                     </ul>
                 </div>

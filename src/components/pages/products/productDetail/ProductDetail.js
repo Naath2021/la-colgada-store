@@ -62,17 +62,18 @@ function ProductDetail({ item }) {
                     <h2 className='item-desc texts'>{item.description}</h2>
                     <h6 className='item-design-disclaimer'>IMPORTANTE: todas las imágenes son ilustrativas, debido a que son piezas únicas y es probable que varíen ligeramente sus dimensiones</h6>
                     <h2 className='item-qty texts' >cantidad: <br /> <Counter count={count} setCount={setCount} /></h2>
-                    <div className="btn-container">
-                        <Button className='add-to-cart' animated='vertical' onClick={() => onAdd(item, calculatedPrice)}>
-                            <Button.Content hidden className='btn-content'>agregar al carrito</Button.Content>
-                            <Button.Content visible>
+                    <div className="detail-btn-container">
+                        {/* found on Counter.js */}
+                        <Button animated='vertical' onClick={() => onAdd(item, calculatedPrice)}>
+                            <Button.Content visible>agregar al carrito</Button.Content>
+                            <Button.Content hidden>
                                 <FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon>
                             </Button.Content>
                         </Button>
 
                         {btnOrderCheckout}
+                        <Link to="../products" className='link-router btn-to-products b-radius-5'>sigue comprando</Link>
                     </div>
-                    <Link to="../products" className='link-router btn-to-products b-radius-5'>sigue comprando</Link>
                 </div>
             </div>
         </>
