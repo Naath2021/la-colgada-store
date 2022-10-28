@@ -1,6 +1,4 @@
 .footer-container {
-  position: static;
-  bottom: 0;
   @include flex-column;
   justify-content: space-evenly;
   height: 40vh;

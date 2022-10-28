@@ -6,7 +6,7 @@ import { getDocs, collection } from "firebase/firestore";
 
 const ProductContainer = () => {
     const [productsInfo, setProductsInfo] = useState([]);
-
+    
     const getProductsInfo = () => {
         const querySnapshot = collection(firebaseDb, "products");
         getDocs(querySnapshot).then((res) => {
@@ -19,6 +19,7 @@ const ProductContainer = () => {
     useEffect(() => {
         getProductsInfo()
     }, [])
+
     return (
         <div>
             <ProductList list={productsInfo} />

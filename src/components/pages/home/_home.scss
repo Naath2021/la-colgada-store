@@ -4,11 +4,11 @@
     background-image: url("../../../assets/image/backgrounds/home.png");
     @include bg-cover;
     @include bg-image;
-    .welcoming-title {
-      font-size: 3vw;
-      width: 30vw;
-      margin-right: 15vw;
-    }
+    // .welcoming-title {
+    //   font-size: 3vw;
+    //   width: 30vw;
+    //   margin-right: 15vw;
+    // }
   }
 
   .description {
@@ -111,13 +111,8 @@
   .sections-container {
     width: 100vw;
     .welcoming {
-      height: 100vh;
+      height: 50vh;
       background-size: contain;
-      .welcoming-title {
-        font-size: 8vw;
-        width: 50vw;
-        margin-right: 0;
-      }
     }
     .description {
       height: 100vh;
@@ -176,14 +171,13 @@
         @include flex-column;
         width: 90vw;
         height: 40vh;
-        .about-title {
-          font-size: 12vw;
-          padding: 20px 0;
-        }
+        // .about-title {
+        //   font-size: 12vw;
+        //   padding: 20px 0;
+        // }
         .about-desc {
           font-size: 3vw;
-          width: 90%;
-          padding-bottom: 30px;
+          width: 80%;
         }
       }
     }

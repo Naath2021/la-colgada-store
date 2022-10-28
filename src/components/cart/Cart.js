@@ -27,7 +27,7 @@ function Cart() {
 
       <Offcanvas show={show} onHide={handleClose} placement="end" backdrop={true}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>¡tu carrito!</Offcanvas.Title>
+          <Offcanvas.Title className="texts">¡tu carrito!</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <CartBody cart={cart} getTotalCartPrice={getTotalCartPrice} clearCart={clearCart} />
