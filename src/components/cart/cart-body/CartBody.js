@@ -18,8 +18,11 @@ const CartBody = ({ cart, getTotalCartPrice, clearCart }) => {
                         : <CartItems />
                 }
                 < h5 className='texts cart-total-price' > total: ${getTotalCartPrice()}</h5 >
-                <h6 onClick={() => clearCart()} className="clear-cart">vaciar carrito</h6>
-                {btnOrderCheckout}
+                {/* styled on _buttons.scss */}
+                <div className="cart-body-action-btn">
+                    {btnOrderCheckout}
+                    <h6 onClick={() => clearCart()} className="clear-cart b-radius-5">vaciar carrito</h6>
+                </div>
             </div>
         </>
     )

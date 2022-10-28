@@ -63,7 +63,7 @@ function ProductDetail({ item }) {
                     <h6 className='item-design-disclaimer'>IMPORTANTE: todas las imágenes son ilustrativas, debido a que son piezas únicas y es probable que varíen ligeramente sus dimensiones</h6>
                     <h2 className='item-qty texts' >cantidad: <br /> <Counter count={count} setCount={setCount} /></h2>
                     <div className="detail-btn-container">
-                        {/* found on Counter.js */}
+                        {/* found on Counter.js / styled on _buttons.scss */}
                         <Button animated='vertical' onClick={() => onAdd(item, calculatedPrice)}>
                             <Button.Content visible>agregar al carrito</Button.Content>
                             <Button.Content hidden>

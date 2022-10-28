@@ -34,8 +34,34 @@
   }
 }
 
-@media screen and (max-width:768px) {
-  .cart-body-container{
-
+@media screen and (max-width: 768px) {
+  .cart-body-container {
+    @include flex-column;
+    .item-container {
+      height: 20vh;
+      width: 80%;
+      .cart-img-container {
+        height: 100%;
+        width: 50%;
+        .item-img {
+          height: 100%;
+          width: 100%;
+          margin: 0%;
+        }
+      }
+      .cart-item-info-container {
+        width: 50%;
+        height: 100%;
+        padding: 20px 0;
+        .cart-item-name {
+          font-size: 3vw;
+          width: 80%;
+          text-align: center;
+        }
+        .cart-item-price {
+          font-size: 2vw;
+        }
+      }
+    }
   }
 }

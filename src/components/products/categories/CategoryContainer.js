@@ -10,7 +10,6 @@ const CategoryContainer = () => {
   const [productCategory, setProductCategory] = useState();
   const categoryCollection = collection(firebaseDb, "products");
   const queryFiltered = query(categoryCollection, where("category", "==", category))
-
   useEffect(() => {
     getProductsCategory()
   }, [category])
