@@ -64,6 +64,7 @@
 
 @media screen and (max-width: 768px) {
   .item-container {
+    height: fit-content;
     @include flex-column;
     .item-img {
       width: 50vw;
@@ -72,11 +73,37 @@
         width: 50vw;
       }
     }
-    .item-info{
+    .item-info {
       margin: 0%;
       padding: 0%;
-      .item-title{
-        font-size: 10vw;
+      .item-title {
+        font-size: 5vw;
+      }
+      .item-price {
+        font-size: 3vw;
+      }
+      .item-desc {
+        font-size: 2.5vw;
+        width: 50vw;
+      }
+      .item-design-disclaimer {
+        font-size: 2vw;
+        width: 60vw;
+      }
+      .item-qty {
+        font-size: 3vw;
+      }
+    }
+    .detail-btn-container {
+      text-align: center;
+      @include flex-column;
+      .btn-to-products {
+        font-size: 2vw;
+        font-weight: 600;
+        width: 30vw;
+        height: 4vh;
+        margin-bottom: 10vh;
+        background-color: $light-pink;
       }
     }
   }

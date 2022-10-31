@@ -9,16 +9,15 @@ import { doc, getDoc } from 'firebase/firestore';
 const ProductDetailContainer = () => {
 
     const { id } = useParams();
-
     const queryDoc = doc(firebaseDb, "products", id)
-
+    
     const [productInfo, setProductInfo] = useState();
 
     useEffect(() => {
         getDoc(queryDoc).then(res => {
             setProductInfo(res.data())
         }).catch(err => console.log(err))
-    })
+    }, [])
 
     return (
         <div className='category-page'>

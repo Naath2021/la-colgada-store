@@ -73,7 +73,7 @@ const Home = () => {
                                     : <>
                                         <div className="categories b-radius">
                                             <img src={baseUrl + catImage[5].image1} alt="categoria-macetas" className="category-img b-radius" />
-                                            <h3 className="subtitles category-name">macetas</h3>
+                                            <h3 className="texts category-name">macetas</h3>
                                         </div>
                                     </>
                             }
@@ -85,7 +85,7 @@ const Home = () => {
                                     : <>
                                         <div className="categories b-radius">
                                             <img src={baseUrl + catImage[9].image1} alt="categoria-macetas" className="category-img b-radius" />
-                                            <h3 className="subtitles category-name">utensilios</h3>
+                                            <h3 className="texts category-name">utensilios</h3>
                                         </div>
                                     </>
                             }
@@ -97,7 +97,7 @@ const Home = () => {
                                     : <>
                                         <div className="categories b-radius">
                                             <img src={baseUrl + catImage[3].image1} alt="categoria-macetas" className="category-img b-radius" />
-                                            <h3 className="subtitles category-name">combos</h3>
+                                            <h3 className="texts category-name">combos</h3>
                                         </div>
                                     </>
                             }
@@ -109,7 +109,7 @@ const Home = () => {
                 <div className="about">
                     <div className="text-container b-radius" data-aos="zoom-in-down" data-aos-duration="1000">
                         {/* <h2 className="titles-web about-title">acerca de</h2> */}
-                        <h3 className="texts about-desc">somos una marca de cerámicas, la construcción de cada producto es realizada artesanalmente. ¡no hay dos iguales!</h3>
+                        <h3 className="texts about-desc">somos una marca de cerámicas, que construye sus artefactos artesanalmente, con un concepto individual y diseños únicos y espontáneos que hace de cada uno una pieza especial ¡no hay dos iguales!</h3>
                     </div>
                 </div>
             </div>

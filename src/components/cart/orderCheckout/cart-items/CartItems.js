@@ -1,7 +1,6 @@
 
 import { useContext } from "react"
 import { CartContext } from '../../../../context/CartContext';
-import { Popup } from 'semantic-ui-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
@@ -11,8 +10,9 @@ const CartItems = () => {
         <>
             {
                 cart.map((item) => {
+                    // classNames starting with "checkout" are styled on _orderCheckout.scss
                     return <div key={item.product.id} className="cart-body-container checkout-cart-body-container">
-                        <div className='item-container checkout-item-container'>
+                        <div className='item-container checkout-item-container b-radius'>
                             <div className="cart-img-container checkout-cart-img-container">
                                 <img src={baseUrl + item.product.image1} alt={item.product.name} className="item-img checkout-item-img b-radius-5" />
                             </div>

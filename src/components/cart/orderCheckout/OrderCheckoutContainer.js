@@ -28,7 +28,7 @@ const OrderCheckoutContainer = () => {
     }
 
     const [orderInfo, setOrderInfo] = useState(order);
-
+    console.log(orderInfo)
     const handleSubmit = (e) => {
         e.preventDefault();
     }

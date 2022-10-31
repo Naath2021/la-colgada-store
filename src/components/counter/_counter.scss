@@ -1,0 +1,28 @@
+.btn-add-items-to-cart-container {
+  @include flex-row;
+  background-color: $bg-color;
+  width: fit-content;
+  .btn-add-substract {
+    font-size: 10px;
+    outline: 0;
+    border: none;
+    color: $fonts;
+    background-color: $bg-color;
+    padding: 10px;
+  }
+  .itemQty {
+    text-align: center;
+    font-size: 1vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn-add-items-to-cart-container {
+    .btn-add-substract {
+      font-size: 2vw;
+    }
+    .itemQty {
+      font-size: 3vw;
+    }
+  }
+}
