@@ -2,17 +2,6 @@
   @include flex-row;
   width: 80%;
   margin: 0 10vw;
-  .form-container {
-    min-height: 100vh;
-    width: 30vw;
-    @include flex-column;
-    .input-container {
-      margin: 5vh 0;
-    }
-    .form-label {
-      font-size: 1vw;
-    }
-  }
   .checkout-items-container {
     width: 20vw;
     .checkout-empty-cart-notif {
@@ -63,6 +52,31 @@
         .checkout-total-price {
           font-size: 1vw;
           margin-top: 5vh;
+        }
+      }
+    }
+  }
+  .form-container {
+    min-height: 100vh;
+    width: 30vw;
+    @include flex-column;
+    .input-container {
+      margin: 5vh 0;
+    }
+    .form-label {
+      font-size: 1vw;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .total-order-container {
+    @include flex-column;
+    .form-container {
+      width: 90%;
+      .input-container {
+        .form-label {
+          font-size: 4vw;
         }
       }
     }
