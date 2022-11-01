@@ -18,7 +18,7 @@ const Footer = () => {
                     <h2 className="texts section-title">explora</h2>
                     <Link to={"/"} className="link-router texts footer-section-link">inicio</Link>
                     <Link to={"products"} className="link-router texts footer-section-link">productos</Link>
-                    <Link to={"faq"} className="link-router texts footer-section-link">Faq</Link>
+                    <Link to={"preguntas-frecuentes"} className="link-router texts footer-section-link">Faq</Link>
                 </div>
 
                 <div className="contact" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">

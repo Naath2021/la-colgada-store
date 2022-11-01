@@ -54,7 +54,7 @@ const OrderCheckout = ({ handleInputChange, createOrder, handleSubmit }) => {
                             <label className='form-label'>datos de facturación</label>
                             <input onChange={handleInputChange} name='buyerDocument' type="number" placeholder='DNI del comprador' />
                         </div>
-                        <button onClick={createOrder} className="ui button" type="submit">finalizar la compra</button>
+                        <button onClick={createOrder} className="ui button" type="submit">finalizar compra</button>
                     </form>
                 </div>
             </div>
