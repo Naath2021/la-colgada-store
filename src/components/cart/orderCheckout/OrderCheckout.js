@@ -17,14 +17,16 @@ const OrderCheckout = ({ handleInputChange, createOrder, handleSubmit }) => {
                         cart.length === 0
                             ? <>
                                 <div className="checkout-empty-cart-notif">
-                                    <h6 className='texts  empty-cart-checkout'>No tienes items en tu carrito, ve a buscarloos</h6>
-                                    <Link to="../products" className='link-router checkout-to-contact b-radius-5'>¡vamos pues! </Link>
+                                    <h6 className='texts  empty-cart-checkout'>No tienes items en tu carrito, ve a buscarlos</h6>
+                                    <Link to="../products" className='link-router checkout-to-products b-radius-5'>vamos pues </Link>
                                 </div>
                             </>
                             : <>
                                 <div className='checkout-items'>
                                     <div className="checkout-cart-items"><CartItems /></div>
-                                    <div className="checkout-total"><h2 className='texts checkout-total-price'>total: ${getTotalCartPrice()}</h2></div>
+                                    <div className="checkout-total">
+                                        <h2 className='texts checkout-total-price'>total: ${getTotalCartPrice()}</h2>
+                                    </div>
                                 </div>
 
                             </>

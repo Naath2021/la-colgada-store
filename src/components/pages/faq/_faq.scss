@@ -1,11 +1,11 @@
 .faq-container {
   @include flex-column;
-  .faq-start {
-    width: 100%;
-    height: 100vh;
-    background-image: url("../../../assets/image/backgrounds/flower-patron-box.png");
-    @include bg-fixed;
-  }
+  // .faq-start {
+  //   width: 100%;
+  //   height: 100vh;
+  //   background-image: url("../../../assets/image/backgrounds/flower-patron-box.png");
+  //   @include bg-fixed;
+  // }
 
   .acc-info-container {
     @include flex-row;
@@ -15,10 +15,11 @@
       .acc-item {
         width: 40vw;
         .accordion-button {
-          font-size: 1.3vw;
+          font-size: 1vw;
           background-color: $light-pink;
           color: $fonts;
           border-color: $fonts;
+          font-weight: 600;
         }
         .accordion-body {
           font-size: 1vw;
@@ -56,14 +57,13 @@
 @media screen and (max-width: 768px) {
   .faq-container {
     @include flex-column;
-    .faq-start {
-      background-size: contain;
-      background-position: top;
-      height: 50vh;
-      width: 100vw;
-    }
+    // .faq-start {
+    //   background-size: cover;
+    //   background-position: top;
+    //   height: 80vh;
+    //   width: 100vw;
+    // }
     .acc-info-container {
-      height: 100vh;
       margin: 0%;
       padding: 0;
       .acc-container {
@@ -71,6 +71,7 @@
           width: 80vw;
           .accordion-button {
             font-size: 3vw;
+            font-weight: 600;
           }
           .accordion-body {
             font-size: 3vw;
@@ -80,9 +81,11 @@
       .faq-contact-info {
         .contact-info {
           padding: 0 0 3vh 0;
-          margin: 0%;
           font-size: 3vw;
           width: fit-content;
+        }
+        .contacts-links{
+          margin-bottom: 10vh;
         }
       }
     }

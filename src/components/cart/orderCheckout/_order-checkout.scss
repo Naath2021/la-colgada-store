@@ -1,6 +1,6 @@
 .total-order-container {
   @include flex-row;
-  width: 80%;
+  justify-content: space-between;
   margin: 0 10vw;
   .checkout-items-container {
     width: 20vw;
@@ -11,7 +11,7 @@
         text-align: center;
         font-size: 1vw;
       }
-      .checkout-to-contact {
+      .checkout-to-products {
         margin: 5vh 0;
         font-size: 0.8vw;
         list-style: lower-latin;
@@ -29,6 +29,7 @@
       height: 80vh;
       .checkout-cart-items {
         @include flex-row;
+        width: 40vw;
         .checkout-cart-body-container {
           .checkout-item-container {
             .checkout-item-img {
@@ -65,6 +66,7 @@
     }
     .form-label {
       font-size: 1vw;
+      font-weight: 600;
     }
   }
 }
@@ -72,6 +74,61 @@
 @media screen and (max-width: 768px) {
   .total-order-container {
     @include flex-column;
+    .checkout-items-container {
+      width: 100vw;
+      @include flex-column;
+      .checkout-empty-cart-notif {
+        width: 60vw;
+        .empty-cart-checkout {
+          font-size: 4vw;
+        }
+        .checkout-to-products {
+          font-size: 3vw;
+        }
+      }
+      .checkout-items {
+        width: 100vw;
+        height: fit-content;
+        .checkout-cart-items {
+          @include flex-column;
+          flex-wrap: nowrap;
+          width: fit-content;
+          .checkout-cart-body-container {
+            @include flex-row;
+            margin: 0 3vw;
+            .checkout-item-container {
+              width: 40vw;
+              height: 15vh;
+              .checkout-cart-img-container {
+                .checkout-item-img {
+                  width: 20vw;
+                  height: fit-content;
+                }
+              }
+              .checkout-cart-item-info-container {
+                padding: 0;
+                margin: 0;
+                height: fit-content;
+                .checkout-delete-product-btn {
+                  font-size: 2.5vw;
+                }
+                .checkout-cart-item-name {
+                  font-size: 3vw;
+                }
+                .checkout-cart-item-price{
+                  font-size: 2vw;
+                }
+              }
+            }
+          }
+        }
+        .checkout-total{
+          .checkout-total-price{
+            font-size: 4vw;
+          }
+        }
+      }
+    }
     .form-container {
       width: 90%;
       .input-container {
