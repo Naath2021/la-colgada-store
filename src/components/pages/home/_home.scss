@@ -120,7 +120,7 @@
         width: 80vw;
         padding: 3vh 5vw;
         h2 {
-          font-size: 2.5vw;
+          font-size: 3vw;
         }
       }
     }
@@ -134,7 +134,7 @@
         }
         .detail-title {
           margin-top: 3vh;
-          font-size: 3vw;
+          font-size: 5vw;
           width: 50vw;
           text-align: center;
         }
@@ -147,10 +147,11 @@
     }
     .categories-container {
       @include flex-column;
-      margin-top: 20vh;
       .category-title {
         font-size: 8vw;
-        padding-left: 10vw;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 5vh;
       }
       .card-container {
         .categories {
@@ -161,7 +162,7 @@
             width: 40vw;
           }
           .category-name {
-            font-size: 3vw;
+            font-size: 4vw;
           }
         }
       }
@@ -176,7 +177,7 @@
         //   padding: 20px 0;
         // }
         .about-desc {
-          font-size: 3vw;
+          font-size: 4vw;
           width: 80%;
         }
       }
