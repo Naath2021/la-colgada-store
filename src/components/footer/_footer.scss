@@ -9,17 +9,17 @@
     justify-content: space-evenly;
     width: 100%;
     .conect,
-    .explore {
+    .explore, .contact {
       @include flex-column;
-      a {
-        color: $fonts;
-        @include text-deco-none;
+      height: 20vh;
+      .section-title{
+        font-size: 2vw;
       }
-    }
-  }
-  .contact {
-    h3 {
-      font-size: 15px;
+      .footer-section-link {
+        @include text-deco-none;
+        color: $fonts;
+        font-size: 1vw;
+      }
     }
   }
   .disclaimer {
@@ -31,30 +31,31 @@
 
 @media screen and (max-width: 768px) {
   .footer-container {
+    @include flex-row;
     height: fit-content;
     .footer-nav-container {
-      @include flex-row;
+      @include flex-column;
       .conect,
       .explore,
       .contact {
         align-content: center;
-        padding: 5vh 0;
         width: 30vw;
         .section-title {
           font-size: 4vw;
-          font-weight: 400;
+          font-weight: 600;
           text-align: center;
         }
         .footer-section-link {
-          font-size: 2vw;
+          font-size: 2.5vw;
+          padding: 5px 0;
           text-align: center;
         }
       }
     }
     .disclaimer {
-      margin: 5vh 0;
+      margin: 5vh 15vw;
       .disclaimer-text {
-        font-size: 2vw;
+        font-size: 3vw;
         text-align: center;
       }
     }
