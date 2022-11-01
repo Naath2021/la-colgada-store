@@ -83,27 +83,28 @@
         font-size: 3vw;
       }
       .item-desc {
-        font-size: 2.5vw;
-        width: 50vw;
+        font-size: 3.5vw;
+        width: 60vw;
       }
       .item-design-disclaimer {
-        font-size: 2vw;
+        font-size: 2.5vw;
         width: 60vw;
       }
       .item-qty {
-        font-size: 3vw;
+        font-size: 3.5vw;
       }
     }
     .detail-btn-container {
       text-align: center;
       @include flex-column;
       .btn-to-products {
-        font-size: 2vw;
+        font-size: 2.5vw;
         font-weight: 600;
-        width: 30vw;
+        width: 35vw;
         height: 4vh;
         margin-bottom: 10vh;
         background-color: $light-pink;
+        text-align: center;
       }
     }
   }
